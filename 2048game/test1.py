@@ -7,4 +7,6 @@ class Test2048(unittest.TestCase):
      def test_2(self):
         self.assertEqual(get_number_from_index(3,3), 16)
 
-        ghbdtb
+if __name__ == 'proj2048':
+    unittest.main()
+
